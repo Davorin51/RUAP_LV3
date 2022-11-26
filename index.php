@@ -58,10 +58,10 @@ register.</p>
  <?php
 // DB connection info
 // TODO: Update the values for $host, $user, $pwd, and $db //using the values you retrieve
-$host = "fkramar1.mysql.database.azure.com";
-$user = "fkramar";
-$pwd = "pumu780E";
-$db = "nazivbaze";
+$host = "dmilicevicsql.mysql.database.azure.com";
+$user = "dmilicevic";
+$pwd = "AzureJeTu123";
+$db = "novidavorin";
 // Connect to database.
 $conn = mysqli_connect($host, $user, $pwd, $db);
 if (mysqli_connect_errno())
